@@ -1,8 +1,8 @@
 # Falling Detection
 
 ## Dataset
-/home/pirl/Pictures/1.png
-/home/pirl/Pictures/2.png
+file:///home/pirl/Pictures/1.png
+
 
 ### (1)UR Fall Detection Dataset
 https://sites.google.com/up.edu.mx/har-up/
