@@ -8,7 +8,7 @@ https://sites.google.com/up.edu.mx/har-up/
 
 ◇ 각각 3 번의 시도 동안 17 명의 대상이 수행 한 11 개의 활동으로 구성
 
-####1. 무릎 안 굽히고 손 먼저 닿으면서 앞으로 쓰러짐*(넘어지기)
+1. 무릎 안 굽히고 손 먼저 닿으면서 앞으로 쓰러짐*(넘어지기)
 
 ![one](https://user-images.githubusercontent.com/52733036/67181479-b3d4be80-f417-11e9-8604-9d7169a20abb.png)
 
