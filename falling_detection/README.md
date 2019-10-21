@@ -1,7 +1,7 @@
 # Falling Detection
 
 ## Dataset
-![1](/home/pirl/Pictures/readme/1.png)
+![1](./home/pirl/Pictures/readme/1.png)
 
 
 ### (1)UR Fall Detection Dataset
