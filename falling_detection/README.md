@@ -14,7 +14,7 @@ http://www.tlc.dii.univpm.it/blog/databases4kinect#IDFall2
   두개의 데이터 그룹으로 이루어져있음
 
 ◇depth frames 데이터
-
+![image](https://user-images.githubusercontent.com/39910353/67178069-656df280-f40c-11e9-973b-647c4b4a6f94.png)
 
 
 ### (3)
