@@ -4,13 +4,11 @@
 
 #### ISO 16715 크레인 안전 수신호
 STOP, EMERGENCY STOP 신호가 쓸만해보임
-![mobile-crane-hand-signals-label-lb-2601](https://user-images.githubusercontent.com/54068348/67183194-dcf74e00-f41b-11e9-9a53-47ed2c752b0e.png)
-<img src="https://user-images.githubusercontent.com/54068348/67183194-dcf74e00-f41b-11e9-9a53-47ed2c752b0e.png" width="40%"/>
+<img src="https://user-images.githubusercontent.com/54068348/67183194-dcf74e00-f41b-11e9-9a53-47ed2c752b0e.png" width="50%"/>
 
 #### 덤프트럭 수신호
 HOLD, RAISE/LOWER, LOOK, SLOW DOWN, SPEED UP 신호가 쓸만해보임
-![save_image](https://user-images.githubusercontent.com/54068348/67183625-e92fdb00-f41c-11e9-98fb-dfa06002cd64.png =200x)
-<img src="https://user-images.githubusercontent.com/54068348/67183625-e92fdb00-f41c-11e9-98fb-dfa06002cd64.png" width="40%"/>
+<img src="https://user-images.githubusercontent.com/54068348/67183625-e92fdb00-f41c-11e9-98fb-dfa06002cd64.png" width="50%"/>
 
 ## Dataset
 * **UTD Multimodal Human Action Dataset** ([link](https://personal.utdallas.edu/~kehtar/UTD-MHAD.html))
