@@ -8,7 +8,7 @@ https://sites.google.com/up.edu.mx/har-up/
 
 ◇ 각각 3 번의 시도 동안 17 명의 대상이 수행 한 11 개의 활동으로 구성
 
-![one](https://user-images.githubusercontent.com/52733036/67181479-b3d4be80-f417-11e9-8604-9d7169a20abb.png)
+![one](https://user-images.githubusercontent.com/52733036/67181479-b3d4be80-f417-11e9-8604-9d7169a20abb.png){: width="100%" height="100%"}
 ![two](https://user-images.githubusercontent.com/52733036/67181500-c2bb7100-f417-11e9-8c9d-fab8b51f5fb1.png)
 ![three](https://user-images.githubusercontent.com/52733036/67181518-cb13ac00-f417-11e9-8a27-9b083c921530.png)
 ![four](https://user-images.githubusercontent.com/52733036/67181512-c9e27f00-f417-11e9-87f7-715ff30c10c0.png)
