@@ -2,4 +2,4 @@
 
 ## Dataset
 * **UTD Multimodal Human Action Dataset**
- - https://personal.utdallas.edu/~kehtar/UTD-MHAD.html
+  - https://personal.utdallas.edu/~kehtar/UTD-MHAD.html
