@@ -8,15 +8,16 @@ https://sites.google.com/up.edu.mx/har-up/
 
 ◇ 각각 3 번의 시도 동안 17 명의 대상이 수행 한 11 개의 활동으로 구성
 
-1. 무릎 안 굽히고 손 먼저 닿으면서 앞으로 쓰러짐*(넘어지기)
+
+1. 앞으로 넘어지기(무릎 안 굽히고 손 먼저 닿으면서 쓰러짐)
 
 ![one](https://user-images.githubusercontent.com/52733036/67181479-b3d4be80-f417-11e9-8604-9d7169a20abb.png)
 
-2. 무릎 먼저 닿고 앞으로 쓰러짐*(눕기)
+2. 앞으로 눕기(무릎 먼저 닿고 쓰러짐)
 
 ![two](https://user-images.githubusercontent.com/52733036/67181500-c2bb7100-f417-11e9-8c9d-fab8b51f5fb1.png)
 
-3. 뒤로 쓰러짐(넘어지기)*
+3. 뒤로 넘어지기
 
 ![three](https://user-images.githubusercontent.com/52733036/67181518-cb13ac00-f417-11e9-8a27-9b083c921530.png)
 
@@ -24,7 +25,7 @@ https://sites.google.com/up.edu.mx/har-up/
 
 ![four](https://user-images.githubusercontent.com/52733036/67181512-c9e27f00-f417-11e9-87f7-715ff30c10c0.png)
 
-5. 뒤로 쓰러짐(눕기)*
+5. 뒤로 눕기
 
 ![five](https://user-images.githubusercontent.com/52733036/67181511-c9e27f00-f417-11e9-9a75-8305e79bf165.png)
 
