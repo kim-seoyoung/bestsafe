@@ -4,7 +4,7 @@
 
 #### ISO 16715 크레인 안전 수신호
 STOP, EMERGENCY STOP 신호가 쓸만해보임
-![mobile-crane-hand-signals-label-lb-2601](https://user-images.githubusercontent.com/54068348/67183194-dcf74e00-f41b-11e9-9a53-47ed2c752b0e.png=200x)
+![mobile-crane-hand-signals-label-lb-2601](https://user-images.githubusercontent.com/54068348/67183194-dcf74e00-f41b-11e9-9a53-47ed2c752b0e.png =200x)
 
 
 #### 덤프트럭 수신호
