@@ -3,8 +3,8 @@
 ## Dataset
 * **UTD Multimodal Human Action Dataset** ([link](https://personal.utdallas.edu/~kehtar/UTD-MHAD.html))
 #### Gesture Recognition
-* NTU RGB+D (NTU RGB+D 120) ([link](http://rose1.ntu.edu.sg/datasets/requesterAdd.asp?DS=3))
-> 용량 1.2TB
+* NTU RGB+D (NTU RGB+D 120) ([link](http://rose1.ntu.edu.sg/datasets/requesterAdd.asp?DS=3))  
+용량 1.2TB  
 물 마시는 동작, 머리 말리는 동작 등 다양함
 * J-HMDB ([link](http://jhmdb.is.tue.mpg.de/))
 #### 3D Human Pose Estimation
