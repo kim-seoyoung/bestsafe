@@ -1,5 +1,4 @@
 # Signal Detection
 
 ## Dataset
-* **UTD Multimodal Human Action Dataset**
-  - https://personal.utdallas.edu/~kehtar/UTD-MHAD.html
+* **UTD Multimodal Human Action Dataset** [(link)](https://personal.utdallas.edu/~kehtar/UTD-MHAD.html)
