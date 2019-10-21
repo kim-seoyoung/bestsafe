@@ -29,27 +29,27 @@ https://sites.google.com/up.edu.mx/har-up/
 
 ![five](https://user-images.githubusercontent.com/52733036/67181511-c9e27f00-f417-11e9-9a75-8305e79bf165.png)
 
-주위 한바퀴 돌기
+6. 주위 한바퀴 돌기
 
 ![six](https://user-images.githubusercontent.com/52733036/67181515-ca7b1580-f417-11e9-8df2-b5cb362afd36.png)
 
-가만히 서 있기
+7. 가만히 서 있기
 
 ![seven](https://user-images.githubusercontent.com/52733036/67181514-ca7b1580-f417-11e9-92cb-23851805a9ef.png)
 
-의자에 앉아있기
+8. 의자에 앉아있기
 
 ![eight](https://user-images.githubusercontent.com/52733036/67181509-c949e880-f417-11e9-9e54-404dd1944c1c.png)
 
-바닥에 떨어진 거 줍기
+9. 바닥에 떨어진 거 줍기
 
 ![nine](https://user-images.githubusercontent.com/52733036/67181513-ca7b1580-f417-11e9-8c65-7bcdd09db055.png)
 
-제자리에서 콩콩 뛰기
+10. 제자리에서 콩콩 뛰기
 
 ![ten](https://user-images.githubusercontent.com/52733036/67181517-cb13ac00-f417-11e9-976c-877279e5a13d.png)
 
-가만히 누워있기
+11. 가만히 누워있기
 
 ![eleven](https://user-images.githubusercontent.com/52733036/67181510-c9e27f00-f417-11e9-8626-b96e426bbde2.png)
 
