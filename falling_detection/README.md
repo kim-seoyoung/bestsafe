@@ -24,7 +24,7 @@ http://www.tlc.dii.univpm.it/blog/databases4kinect#IDFall2
 
 ◇데이터 간 싱크로를 위한  시간 정보
 
-### (3)
+### (3)AIHUB
 http://www.aihub.or.kr/
 
 ![image](https://user-images.githubusercontent.com/39910353/67178710-b1ba3200-f40e-11e9-87cd-6070b2f418a9.png)
