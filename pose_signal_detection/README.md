@@ -5,8 +5,8 @@
 * ([link](https://github.com/facebookresearch/VideoPose3D))
 * ffmpeg를 통한 .mp4로 변환
   -> detectron을 통한 2d keypoint추출(.npz) -> videopose3d를 통해 2d keypoint를 3d skeleton으로 변환
-  
-![videoposereadme](https://user-images.githubusercontent.com/52961246/68527903-c6b02400-032f-11ea-9384-bb9bbbc32d34.png){: width="100" height="100"}
+<img src="https://user-images.githubusercontent.com/52961246/68527903-c6b02400-032f-11ea-9384-bb9bbbc32d34.png" width="50%"/>
+
 * 수신호로 사용할 dataset을 videopose3d를 이용해서 skeleton을 추출하고 영상에 rendering
 ![a2_s8_t2_color_converted](https://user-images.githubusercontent.com/52961246/68527851-16422000-032f-11ea-9a1e-59fe3bb3e565.gif)
 
