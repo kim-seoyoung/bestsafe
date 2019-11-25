@@ -1,5 +1,5 @@
 # 3D pose estimation
-### VNect
+## VNect
 * [github](https://github.com/XinArkh/VNect)
 * (모델 설명 쓰기)
 
@@ -14,10 +14,10 @@
 ```bash
 VNect~$ python3 run_estimator_ps.py --input {input_file} --output-dir {output_directory}
 ```
-- 3D plot을 gif로 저장
+-- 3D plot을 gif로 저장
 ```bash
 VNect~$ python3 run_estimator_ps.py --input {input_file} --output-dir {output_directory} --savegif True
 ```
 
 
-- 도커 이미지 올리기
+- (도커 이미지 올리기)
