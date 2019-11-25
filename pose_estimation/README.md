@@ -5,7 +5,7 @@
 
 #### 설치
 
-```console
+```bash
 ~$ git clone https://github.com/XinArkh/VNect
 ~$ cd VNect
 ```
