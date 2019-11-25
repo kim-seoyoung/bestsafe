@@ -18,10 +18,11 @@
 ```
 
 #### Usage
+###### - numpy파일로 저장
 ```bash
 ~$ python3 run_estimator_ps.py --input {input_file} --output-dir {output_directory}
 ```
-###### - 3D plot을 gif로 저장
+###### - numpy파일로 저장 + 3D plot을 gif로 저장
 ```bash
 ~$ python3 run_estimator_ps.py --input {input_file} --output-dir {output_directory} --savegif True
 ```
