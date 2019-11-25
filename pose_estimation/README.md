@@ -5,15 +5,18 @@
 
 #### Environments
 - python 3.5
-
-#### 설치
+  - opencv-python 3.4.4.19
+  - tensorflow-gpu 1.12.0 (CUDA 9.0)
+  - pycaffe
+  - matplotlib 3.0.0 or 3.0.2
+#### Setup
 
 ```bash
 ~$ git clone https://github.com/XinArkh/VNect
 ~$ cd VNect
 ```
 
-#### 사용법
+#### Usage
 ```bash
 VNect~$ python3 run_estimator_ps.py --input {input_file} --output-dir {output_directory}
 ```
