@@ -10,6 +10,7 @@ from src.hog_box import HOGBox
 from src.estimator import VNectEstimator
 from arguments import parse_args
 import os
+from scipy.interpolate import interp1d
 
 args = parse_args()
 
@@ -69,6 +70,34 @@ def hog_box():
     # the final static bounding box params
     return rect
 
+# make 100 frame
+def interpolation(data):
+    data = np.array(data)
+    n = data.shape[0]
+    new_array = np.zeros(shape=(100, 21, 3))
+
+    for i in range(21):
+        skeleton_x = data[:, i, 0]
+        skeleton_y = data[:, i, 1]
+        skeleton_z = data[:, i, 2]
+
+        x0 = np.linspace(0, 100, num=n, endpoint=True)
+        y0 = skeleton_x
+        f0 = interp1d(x0, y0, kind='quadratic')
+        x1 = np.linspace(0, 100, num=n, endpoint=True)
+        y1 = skeleton_y
+        f1 = interp1d(x1, y1, kind='quadratic')
+        x2 = np.linspace(0, 100, num=n, endpoint=True)
+        y2 = skeleton_z
+        f2 = interp1d(x2, y2, kind='quadratic')
+
+        xnew = np.linspace(0, 100, num=100, endpoint=True)
+
+        new_array[:, i, 0] = f0(xnew)
+        new_array[:, i, 1] = f1(xnew)
+        new_array[:, i, 2] = f2(xnew)
+
+    return new_array
 
 #################
 ### Main Loop ###
@@ -94,7 +123,6 @@ def main(q_start3d, q_joints):
         q_joints.put(joints_3d)
         q_joints_list.append(joints_3d)
 
-
         # 2d plotting
         frame_square = utils.img_scale_squarify(frame_cropped, box_size)
         frame_square = utils.draw_limbs_2d(frame_square, joints_2d, joint_parents)
@@ -106,7 +134,7 @@ def main(q_start3d, q_joints):
 
         success, frame = camera_capture.read()
 
-    q_joints_numpy = np.array(q_joints_list, dtype=np.float32)
+    q_joints_numpy = interpolation(q_joints_list)
     np.save(savepath, q_joints_numpy)
     # angles_file.close()
     try:
