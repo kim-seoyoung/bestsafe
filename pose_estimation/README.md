@@ -3,6 +3,10 @@
 * [github](https://github.com/XinArkh/VNect)
 * (모델 설명 쓰기)
 
+## interpolation
+* 분류 모델에 사용하기 위해 frame 수를 100으로 맞추기 위해 사용
+* (설명)
+
 #### Environments
 - python 3.5
   - opencv-python 3.4.4.19
