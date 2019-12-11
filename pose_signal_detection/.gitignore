@@ -1,11 +1,11 @@
-!data/.gitkeep
-!input/.gitkeep
-!output/.gitkeep
 
 data/
 input/
 output/
 
+!data/.gitkeep
+!input/.gitkeep
+!output/.gitkeep
 
 
 /runs
