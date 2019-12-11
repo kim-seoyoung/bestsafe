@@ -1,0 +1,6 @@
+# 암호화 될 파일
+cmd/encrypted_file.go filter=git-crypt diff=git-crypt
+
+# .gitattributes 파일이 암호화되지 않도록 세팅
+.gitattributes !filter !diff
+
