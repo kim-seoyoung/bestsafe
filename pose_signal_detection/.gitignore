@@ -4,6 +4,7 @@ input/
 output/
 
 !data/.gitkeep
+!data/.gitignore
 !input/.gitkeep
 !output/.gitkeep
 
