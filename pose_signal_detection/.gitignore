@@ -1,6 +1,11 @@
 data/
 input/
 output/
+
+!data/.gitkeep
+!input/.gitkeep
+!output/.gitkeep
+
 /runs
 /work_dir
 
