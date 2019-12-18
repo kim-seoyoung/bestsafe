@@ -1,17 +1,12 @@
 import argparse
 import pickle
 from tqdm import tqdm
-import sys
 
-sys.path.extend(['../'])
-from data_gen.preprocess import pre_normalization
+if __name__ != '__main__':
+    from classification.data_gen.preprocess import pre_normalization
 
 training_subjects = [1,2,3,4,5,6]
 training_cameras = [1,2]
-
-class1 = [6]  # arm cross
-class2 = [9,10] # draw circle
-class3 = [11] # draw triangle
 
 max_body_true = 2
 max_body_kinect = 4
@@ -75,7 +70,7 @@ def read_xyz(file, max_body=4, num_joint=25):  # 取了前两个body
     return data
 
 
-def gendata(data_path, out_path, ignored_sample_path=None, benchmark='xview', part='eval'):
+def gendata(data_path, out_path, ignored_sample_path=None):
     if ignored_sample_path != None:
         with open(ignored_sample_path, 'r') as f:
             ignored_samples = [
@@ -88,44 +83,12 @@ def gendata(data_path, out_path, ignored_sample_path=None, benchmark='xview', pa
     for filename in os.listdir(data_path):
         if filename in ignored_samples:
             continue
-        action_class = int(
-            filename[filename.find('a') + 1:filename.find('s') - 1])
-        subject_id = int(
-            filename[filename.find('s') + 1:filename.find('t') - 1])
-        camera_id = int(
-            filename[filename.find('t') + 1:filename.find('color') - 1])
+        action_class = 100
 
-        ###############################################################
-        if action_class in class1:
-            action_class = 1
-        elif action_class in class2:
-            action_class = 2
-        elif action_class in class3:
-            action_class = 3
-        else:
-            action_class = 4
-        ###############################################################
+        sample_name.append(filename)
+        sample_label.append(action_class - 1)
 
-        if benchmark == 'xview':
-            istraining = (camera_id in training_cameras)
-        elif benchmark == 'xsub':
-            istraining = (subject_id in training_subjects)
-        else:
-            raise ValueError()
-
-        if part == 'train':
-            issample = istraining
-        elif part == 'val':
-            issample = not (istraining)
-            # issample = istraining ###########################
-        else:
-            raise ValueError()
-
-        if issample:
-            sample_name.append(filename)
-            sample_label.append(action_class - 1)
-
-    with open('{}/{}_label.pkl'.format(out_path, part), 'wb') as f:
+    with open('{}_label.pkl'.format(out_path), 'wb') as f:
         pickle.dump((sample_name, list(sample_label)), f)
 
     fp = np.zeros((len(sample_label), 3, max_frame, num_joint, max_body_true), dtype=np.float32)
@@ -135,29 +98,32 @@ def gendata(data_path, out_path, ignored_sample_path=None, benchmark='xview', pa
         fp[i, :, 0:data.shape[1], :, :] = data
 
     fp = pre_normalization(fp)
-    np.save('{}/{}_data_joint.npy'.format(out_path, part), fp)
+    np.save('{}_data_joint.npy'.format(out_path), fp)
 
 
 if __name__ == '__main__':
+    import sys
+
+    sys.path.extend(['../'])
+    from data_gen.preprocess import pre_normalization
+
     parser = argparse.ArgumentParser(description='mydata Data Converter.')
-    parser.add_argument('--data_path', default='/dataset/RGB/numpy/')
+    parser.add_argument('--data_path', default='/vnect/output/')
     parser.add_argument('--ignored_sample_path',
                         default='../data/nturgbd_raw/samples_with_missing_skeletons.txt')
-    parser.add_argument('--out_folder', default='../data/mydata/gen/')
+    parser.add_argument('--out_folder', default='../data/mydata/predict/')
 
-    benchmark = ['xsub', 'xview']
-    part = ['train', 'val']
+    # benchmark = ['xsub', 'xview']
+    # part = ['train', 'val']
     arg = parser.parse_args()
 
-    for b in benchmark:
-        for p in part:
-            out_path = os.path.join(arg.out_folder, b)
-            if not os.path.exists(out_path):
-                os.makedirs(out_path)
-            print(b, p)
-            gendata(
-                arg.data_path,
-                out_path,
-                # arg.ignored_sample_path,
-                benchmark=b,
-                part=p)
+    # for b in benchmark:
+    #     for p in part:
+    out_path = os.path.join(arg.out_folder, 'predict')
+    if not os.path.exists(out_path):
+        os.makedirs(out_path)
+    gendata(
+        arg.data_path,
+        out_path,
+        # arg.ignored_sample_path,
+        )
