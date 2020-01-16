@@ -18,7 +18,7 @@
 
 ### VNect
 
-* [pose_estimation](https://github.com/kim-seoyoung/bestsafe/tree/master/pose_estimation)
+* [VNect_pose_estimaion](https://github.com/kim-seoyoung/bestsafe/tree/master/pose_estimation)
 
 
 ## Dataset
