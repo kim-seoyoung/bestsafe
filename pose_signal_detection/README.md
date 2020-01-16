@@ -1,8 +1,14 @@
 # Signal Detection
 
+
+
 ## model
 ### VideoPose3D
 * ([link](https://github.com/facebookresearch/VideoPose3D))
+* 동영상의 각 프레임으로 부터 2D 관절을 먼저 추출한 후 2D관절의 연속성에 따라 3D 관절을 추출해 내는 모델로 17개 관절을 추출한다.
+* 2D 관절을 추출하고 3D 관절을 추출하는 2가지 과정을 거친다. 이때 2D 관절은 'Detectron'모델을 사용한다
+* [Detectron](https://github.com/facebookresearch/Detectron)
+
 * ffmpeg를 통한 .mp4로 변환
   -> detectron을 통한 2d keypoint추출(.npz) -> videopose3d를 통해 2d keypoint를 3d skeleton으로 변환
 <img src="https://user-images.githubusercontent.com/52961246/68527903-c6b02400-032f-11ea-9384-bb9bbbc32d34.png" width="300"/>
