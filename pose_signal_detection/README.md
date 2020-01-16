@@ -18,6 +18,9 @@
 
 ### VNect
 
+* [pose_estimation](https://github.com/kim-seoyoung/bestsafe/tree/master/pose_estimation)
+
+
 ## Dataset
 * **UTD Multimodal Human Action Dataset** ([link](https://personal.utdallas.edu/~kehtar/UTD-MHAD.html))
   - Microsoft Kinect sensor와 inertial sensor를 각각 하나씩 이용
