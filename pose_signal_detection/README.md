@@ -40,4 +40,8 @@ STOP, EMERGENCY STOP 신호가 쓸만해보임
 HOLD, RAISE/LOWER, LOOK, SLOW DOWN, SPEED UP 신호가 쓸만해보임  
 <img src="https://user-images.githubusercontent.com/54068348/67183625-e92fdb00-f41c-11e9-98fb-dfa06002cd64.png" width="50%"/>
 
+## Interpolation
+
+## Classification
+
 
