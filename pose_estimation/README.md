@@ -1,6 +1,6 @@
 # 3D pose estimation
 
-## VNect
+## VNect 모델
 * [github](https://github.com/XinArkh/VNect)
 * (모델 설명 쓰기)
 
