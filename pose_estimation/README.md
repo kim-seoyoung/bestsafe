@@ -2,7 +2,7 @@
 
 ## VNect 모델
 * [github](https://github.com/XinArkh/VNect)
-* (모델 설명 쓰기)
+* 영상의 각 프레임들로부터 2D, 3D joint heatmap을 추출하여 3D skeleton을 계산하고 21개의 관절을 추출해내는 모델
 
 ## interpolation
 * 분류 모델에 사용하기 위해 frame 수를 100으로 맞추기 위해 사용
@@ -38,4 +38,4 @@
 
 ## VideoPose3D 모델
 * [github](https://github.com/facebookresearch/VideoPose3D)
-* 
+* 동영상의 각 프레임으로 부터 2D 관절을 먼저 추출한 후 2D관절의 연속성에 따라 3D 관절을 추출해 내는 
