@@ -24,7 +24,7 @@ HOLD, RAISE/LOWER, LOOK, SLOW DOWN, SPEED UP 신호가 쓸만해보임
 
 ## step2: model
 
-* 모델 구축은 VideoPose3D,VNect 두가지 모델을 사용할 수 있고 각각 두개의 버전으로 Signal Detection Model 이 가능하다 
+* 모델 구축은 VideoPose3D,VNect 두가지 모델을 사용할 수 있고 각각 두개의 버전으로 Signal Detection Model을 구축해 볼 수 있다. 
 
 ### VideoPose3D model
 * [VideoPose3D](https://github.com/facebookresearch/VideoPose3D)
