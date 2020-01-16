@@ -35,7 +35,7 @@
 - (도커 이미지 올리기)
 
 
-### VideoPose3D 
+### VideoPose3D 모델
 * [VideoPose3D](https://github.com/facebookresearch/VideoPose3D)
 * 동영상의 각 프레임으로 부터 2D 관절을 먼저 추출한 후 2D관절의 연속성에 따라 3D 관절을 추출해 내는 모델로 17개 관절을 추출함.
 * [Detectron](https://github.com/facebookresearch/Detectron)
