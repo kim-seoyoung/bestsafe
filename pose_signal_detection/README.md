@@ -24,7 +24,9 @@ HOLD, RAISE/LOWER, LOOK, SLOW DOWN, SPEED UP 신호가 쓸만해보임
 
 ## step2: model
 
-### VideoPose3D
+* 모델 구축은 VideoPose3D,VNect 두가지 모델을 사용할 수 있고 각각 두개의 버전으로 Signal Detection Model 이 가능하다 
+
+### VideoPose3D model
 * [VideoPose3D](https://github.com/facebookresearch/VideoPose3D)
 * 동영상의 각 프레임으로 부터 2D 관절을 먼저 추출한 후 2D관절의 연속성에 따라 3D 관절을 추출해 내는 모델로 17개 관절을 추출한다.
 * 2D 관절을 추출하고 3D 관절을 추출하는 2가지 과정을 거친다. 이때 2D 관절은 'Detectron'모델을 사용한다
@@ -37,7 +39,7 @@ HOLD, RAISE/LOWER, LOOK, SLOW DOWN, SPEED UP 신호가 쓸만해보임
 * 수신호로 사용할 dataset을 videopose3d를 이용해서 skeleton을 추출하고 영상에 rendering
 ![a2_s8_t2_color_converted](https://user-images.githubusercontent.com/52961246/68527851-16422000-032f-11ea-9a1e-59fe3bb3e565.gif)
 
-### VNect
+### VNect model
 
 * [VNect_pose_estimaion](https://github.com/kim-seoyoung/bestsafe/tree/master/pose_estimation)
 
