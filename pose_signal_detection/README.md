@@ -44,9 +44,28 @@ HOLD, RAISE/LOWER, LOOK, SLOW DOWN, SPEED UP 신호가 쓸만해보임
 * [VNect_pose_estimaion](https://github.com/kim-seoyoung/bestsafe/tree/master/pose_estimation)
 
 
+## step3: Dataset 전처리
+
+![2s-AGCN](https://github.com/lshiwjx/2s-AGCN) 모델을 참고하였다.  
 
 
-## step3: Interpolation
+dataset을 전처리 하기 위해
+
+''
+ㅁ
+''
+
+
+
+
+### Interpolation
+
+spline interpolation 기법을 이용하여 
+
+
+
+
+
 
 ## step4: Classification
 
