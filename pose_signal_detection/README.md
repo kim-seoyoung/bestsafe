@@ -1,9 +1,9 @@
 # Signal Detection
 
-
+![process](https://user-images.githubusercontent.com/39910353/72503323-c75cbd80-387e-11ea-8772-48f7b3af9e96.PNG)
 
 ## model
-![process](https://user-images.githubusercontent.com/39910353/72503323-c75cbd80-387e-11ea-8772-48f7b3af9e96.PNG)
+
 
 
 ### VideoPose3D
