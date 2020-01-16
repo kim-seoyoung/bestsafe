@@ -2,7 +2,7 @@
 
 ![process](https://user-images.githubusercontent.com/39910353/72503323-c75cbd80-387e-11ea-8772-48f7b3af9e96.PNG)
 
-## Dataset
+## step1: Dataset
 * **UTD Multimodal Human Action Dataset** ([link](https://personal.utdallas.edu/~kehtar/UTD-MHAD.html))
   - Microsoft Kinect sensor와 inertial sensor를 각각 하나씩 이용
   - 8명의 사람의 27가지의 action으로 구성
@@ -22,7 +22,7 @@ HOLD, RAISE/LOWER, LOOK, SLOW DOWN, SPEED UP 신호가 쓸만해보임
 <img src="https://user-images.githubusercontent.com/54068348/67183625-e92fdb00-f41c-11e9-98fb-dfa06002cd64.png" width="50%"/>
 
 
-## model
+## step2: model
 
 ### VideoPose3D
 * [VideoPose3D](https://github.com/facebookresearch/VideoPose3D)
@@ -44,8 +44,8 @@ HOLD, RAISE/LOWER, LOOK, SLOW DOWN, SPEED UP 신호가 쓸만해보임
 
 
 
-## Interpolation
+## step3: Interpolation
 
-## Classification
+## step4: Classification
 
 
