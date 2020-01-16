@@ -1,7 +1,8 @@
 # 3D pose estimation
 
 ## VideoPose3D 모델
-* [github](https://github.com/XinArkh/VNect)
+* [github](https://github.com/facebookresearch/VideoPose3D)
+* 
 
 ## VNect
 * [github](https://github.com/XinArkh/VNect)
