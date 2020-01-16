@@ -48,11 +48,11 @@ HOLD, RAISE/LOWER, LOOK, SLOW DOWN, SPEED UP 신호가 쓸만해보임
 
 [2s-AGCN](https://github.com/lshiwjx/2s-AGCN) 모델을 참고하였다.  
 
-dataset을 전처리 하기 위해 *data/mydata/npy*에 skeleton을 추출한 npy파일을 넣은 후 아래 명령어를 실행한다.
+dataset을 전처리 하기 위해 **data/mydata/npy**에 skeleton을 추출한 npy파일을 넣은 후 아래 명령어를 실행한다.
 
 `python data_gen/my_gendata.py`
 
-위의 명령어를 실행하면 *data/mydata/gen*에 결과물이 생성될 것이다. 이 결과물은 데이터를 트레이닝하기 위해 모델의 입력부분에 알맞게 수정한 데이터이다.
+위의 명령어를 실행하면 **data/mydata/gen**에 결과물이 생성될 것이다. 이 결과물은 데이터를 트레이닝하기 위해 모델의 입력부분에 알맞게 수정한 데이터이다.
 
 
 
