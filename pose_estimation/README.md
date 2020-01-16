@@ -1,9 +1,5 @@
 # 3D pose estimation
 
-## VideoPose3D 모델
-* [github](https://github.com/facebookresearch/VideoPose3D)
-* 
-
 ## VNect
 * [github](https://github.com/XinArkh/VNect)
 * (모델 설명 쓰기)
@@ -38,3 +34,8 @@
 
 
 - (도커 이미지 올리기)
+
+
+## VideoPose3D 모델
+* [github](https://github.com/facebookresearch/VideoPose3D)
+* 
