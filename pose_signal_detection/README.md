@@ -3,6 +3,9 @@
 
 
 ## model
+![process](https://user-images.githubusercontent.com/39910353/72503323-c75cbd80-387e-11ea-8772-48f7b3af9e96.PNG)
+
+
 ### VideoPose3D
 * [VideoPose3D](https://github.com/facebookresearch/VideoPose3D)
 * 동영상의 각 프레임으로 부터 2D 관절을 먼저 추출한 후 2D관절의 연속성에 따라 3D 관절을 추출해 내는 모델로 17개 관절을 추출한다.
