@@ -1,0 +1,6 @@
+python tools/infer_simple.py \
+--cfg configs/12_2017_baselines/e2e_keypoint_rcnn_X-101-32x8d-FPN_s1x.yaml \
+--output-dir /tmp/detectron-visualizations \
+--image-ext jpg \
+--wts https://dl.fbaipublicfiles.com/detectron/37732318/12_2017_baselines/e2e_keypoint_rcnn_X-101-32x8d-FPN_s1x.yaml.16_55_09.Lx8H5JVu/output/train/keypoints_coco_2014_train%3Akeypoints_coco_2014_valminusminival/generalized_rcnn/model_final.pkl\
+/home/pirl/detectron/detectron/datasets/data/
