@@ -1,0 +1,8 @@
+for file_name in  /home/pirl/data/RGB/Normal/Normal1Npy/*.npy;
+
+   do name=`echo $file_name| cut -d'.' -f1| cut -d'/' -f8`;
+   echo $name;
+
+   python interpolation.py  $name;
+
+done

@@ -1,0 +1,1 @@
+python prepare_data_2d_custom.py -i /home/pirl/PycharmProjects/Detectron/Detectron/output_directory -o DrawTriangle

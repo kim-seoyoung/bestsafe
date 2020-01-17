@@ -1,0 +1,1 @@
+python /Detectron/prepare_data_2d_custom.py -i Detectron/output_directory -o myvideos_fall;

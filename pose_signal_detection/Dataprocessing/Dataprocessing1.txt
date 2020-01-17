@@ -1,0 +1,16 @@
+for file_name in /home/pirl/data/RGB/DrawTriangle/*.mp4; 
+   do name=`echo $file_name |  cut -d'.' -f1 | cut -d'/' -f7`;
+   echo $name;
+
+   python run.py \
+   -d custom \
+   -k DrawTriangle \
+   -arc 3,3,3,3,3 \
+   -c checkpoint \
+   --evaluate pretrained_h36m_detectron_coco.bin \
+   --render \
+   --viz-subject $name.mp4 \
+   --viz-action custom \
+   --viz-export output_videos/$name ;
+   
+done
