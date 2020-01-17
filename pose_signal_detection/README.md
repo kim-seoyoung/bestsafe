@@ -46,7 +46,7 @@ HOLD, RAISE/LOWER, LOOK, SLOW DOWN, SPEED UP 신호가 쓸만해보임
 
 ## step3: Dataset 전처리
 
-[2s-AGCN](https://github.com/lshiwjx/2s-AGCN) 모델을 참고하였다.  
+[2s-AGCN](https://github.com/lshiwjx/2s-AGCN)를 기반으로 모델을 제작하였다.  
 
 ### Data format transfer
 
