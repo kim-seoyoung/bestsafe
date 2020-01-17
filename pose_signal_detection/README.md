@@ -46,7 +46,7 @@ HOLD, RAISE/LOWER, LOOK, SLOW DOWN, SPEED UP 신호가 쓸만해보임
 
 ## step3: Dataset 전처리
 
-[2s-AGCN](https://github.com/lshiwjx/2s-AGCN)를 기반으로 모델을 제작하였다.  
+[2s-AGCN](https://github.com/lshiwjx/2s-AGCN) 모델을 참고하였다.  
 
 ### Data format transfer
 
@@ -61,20 +61,21 @@ Ex) 데이터의 shape 변경 : (60, 17, 3) -> (3, 100, 17, 2)
 
 ### Interpolation
 
-spline interpolation 기법을 이용하여 
+spline interpolation 기법을 이용하여 관절의 X,Y,Z 축의 데이터를 100 프레임으로 맞춰준다.
+* [interpolation](https://docs.scipy.org/doc/scipy-0.14.0/reference/generated/scipy.interpolate.interp1d.html)
 
 
 
 ## step4: Classification
 
-전처리가 끝나면, **config** 폴더 안에서 모델의 설정 파일인 **my_subject_train.yaml** 파일을 확인한다.  
+전처리가 끝나면, **config** 폴더 안에서 모델의 설정 파일인 yaml 파일을 확인한다.  
 이 파일에는 weight decay, base learning rate, device 개수(GPU), batch size, epoch 등 모델을 튜닝할 수 있는 부분과 data path, label path와 같이 모델이 학습할 경로를 설정할 수 있는 부분이 있다.
 
 설정이 끝나고 나면 모델을 학습시킨다.
 
 `python main.py --config ./config/my_subject_train.yaml`
 
-모델을 학습시켜서 weight가 새롭게 갱신이 되면 마찬가지로 **my_subject_test.yaml** 파일을 적절히 수정한다.
+모델을 학습시켜서 weight가 새롭게 갱신이 되면 마찬가지로 test yaml 파일을 적절히 수정한다.
 
 `python main.py --config ./config/my_subject_test.yaml`
 
