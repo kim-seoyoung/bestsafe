@@ -39,6 +39,9 @@ HOLD, RAISE/LOWER, LOOK, SLOW DOWN, SPEED UP 신호가 쓸만해보임
 * 수신호로 사용할 dataset을 videopose3d를 이용해서 skeleton을 추출하고 영상에 rendering
 ![a2_s8_t2_color_converted](https://user-images.githubusercontent.com/52961246/68527851-16422000-032f-11ea-9a1e-59fe3bb3e565.gif)
 
+* 모델을 다운받은 후 본 깃 저장소의 [Detectron](https://github.com/kim-seoyoung/bestsafe/tree/master/pose_signal_detection/Detectron)폴더에 있는 코드와 [VideoPose3D](https://github.com/kim-seoyoung/bestsafe/tree/master/pose_signal_detection/VideoPose3D)폴더에 있는 코드를 쉘에 입력하여 실행하여주면된다.
+(파일명 등등 세부사항은 각자에 맞게 수정 후 사용할 것)
+
 ### VNect model
 
 * [VNect_pose_estimaion](https://github.com/kim-seoyoung/bestsafe/tree/master/pose_estimation)
