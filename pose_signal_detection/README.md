@@ -67,14 +67,14 @@ spline interpolation 기법을 이용하여
 
 ## step4: Classification
 
-전처리가 끝나면, **config** 폴더 안에서 모델의 설정 파일인 yaml 파일을 확인한다.  
+전처리가 끝나면, **config** 폴더 안에서 모델의 설정 파일인 **my_subject_train.yaml** 파일을 확인한다.  
 이 파일에는 weight decay, base learning rate, device 개수(GPU), batch size, epoch 등 모델을 튜닝할 수 있는 부분과 data path, label path와 같이 모델이 학습할 경로를 설정할 수 있는 부분이 있다.
 
 설정이 끝나고 나면 모델을 학습시킨다.
 
 `python main.py --config ./config/my_subject_train.yaml`
 
-모델을 학습시켜서 weight가 새롭게 갱신이 되면 마찬가지로 test yaml 파일을 적절히 수정한다.
+모델을 학습시켜서 weight가 새롭게 갱신이 되면 마찬가지로 **my_subject_test.yaml** 파일을 적절히 수정한다.
 
 `python main.py --config ./config/my_subject_test.yaml`
 
